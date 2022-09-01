@@ -13,4 +13,5 @@ while (tempNum != 0)
     if (dig != 0 && num % dig == 0) resSum += dig;
     tempNum = tempNum / 10;
 }
+
 Console.WriteLine(resSum);
